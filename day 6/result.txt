@@ -1,0 +1,110 @@
+rect coordinate 5 0
+input coordinate 5  5
+Previous closest coordinate 1, 1
+coordinate found!
+rect coordinate 5 1
+input coordinate 5  5
+Previous closest coordinate 1, 1
+rect coordinate 5 2
+input coordinate 3  4
+Previous closest coordinate 8, 3
+rect coordinate 5 3
+input coordinate 3  4
+Previous closest coordinate 8, 3
+coordinate found!
+rect coordinate 0 4
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 1 4
+input coordinate 3  4
+Previous closest coordinate 1, 6
+coordinate found!
+rect coordinate 4 4
+input coordinate 8  3
+Previous closest coordinate 1, 6
+rect coordinate 6 4
+input coordinate 3  4
+Previous closest coordinate 8, 3
+rect coordinate 2 5
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 5 5
+input coordinate 8  3
+Previous closest coordinate 1, 6
+coordinate found!
+rect coordinate 6 5
+input coordinate 3  4
+Previous closest coordinate 8, 3
+coordinate found!
+rect coordinate 3 6
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 4 6
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 5 6
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 6 6
+input coordinate 8  3
+Previous closest coordinate 1, 6
+rect coordinate 6 6
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 8 6
+input coordinate 8  9
+Previous closest coordinate 8, 3
+rect coordinate 9 6
+input coordinate 8  9
+Previous closest coordinate 8, 3
+rect coordinate 3 7
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 4 7
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 5 7
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 6 7
+input coordinate 8  3
+Previous closest coordinate 1, 6
+rect coordinate 6 7
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 3 8
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 4 8
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 5 8
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 6 8
+input coordinate 8  3
+Previous closest coordinate 1, 6
+rect coordinate 6 8
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 3 9
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 3 9
+input coordinate 8  9
+Previous closest coordinate 1, 6
+rect coordinate 4 9
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 5 9
+input coordinate 3  4
+Previous closest coordinate 1, 6
+rect coordinate 6 9
+input coordinate 8  3
+Previous closest coordinate 1, 6
+rect coordinate 6 9
+input coordinate 3  4
+Previous closest coordinate 1, 6
+coordinate found!
+[["00","00","00","00","00","0.","02","02","02","02"],["00","00","00","00","00","0.","02","02","02","02"],["00","00","00","03","03","04","02","02","02","02"],["00","00","03","03","03","04","02","02","02","02"],["0.","0.","03","03","03","04","04","02","02","02"],["01","01","0.","03","04","04","04","04","02","02"],["01","01","01","0.","04","04","04","04","0.","0."],["01","01","01","0.","04","04","04","05","05","05"],["01","01","01","0.","04","04","05","05","05","05"],["01","01","01","0.","05","05","05","05","05","05"]]
+[ Infinity, Infinity, Infinity, 9, 17, Infinity ]
