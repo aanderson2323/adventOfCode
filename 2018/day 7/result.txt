@@ -1,0 +1,104 @@
+{ requirements: [ 'W', 'J' ],
+  requiredFor: [ 'D', 'U', 'C', 'F' ],
+  order: -2,
+  step: 'Z' }
+{ requirements: [ 'Z', 'I' ],
+  requiredFor: [ 'G', 'H', 'Q', 'K', 'T' ],
+  order: -1,
+  step: 'C' }
+{ requirements: [],
+  requiredFor: [ 'X', 'H', 'S', 'I' ],
+  order: -1,
+  step: 'E' }
+{ requirements: [ 'Z' ],
+  requiredFor: [ 'Q', 'K', 'X', 'H', 'V', 'G' ],
+  order: -1,
+  step: 'F' }
+{ requirements: [ 'O', 'A' ],
+  requiredFor: [ 'U', 'Y', 'S', 'Z', 'B', 'W' ],
+  order: -1,
+  step: 'J' }
+{ requirements: [ 'S', 'F', 'C', 'I', 'W', 'U' ],
+  requiredFor: [ 'V', 'H', 'Y', 'T', 'B' ],
+  order: -1,
+  step: 'K' }
+{ requirements: [ 'A' ],
+  requiredFor: [ 'T', 'H', 'I' ],
+  order: -1,
+  step: 'N' }
+{ requirements: [ 'F', 'S', 'C', 'X', 'U', 'I', 'W' ],
+  requiredFor: [ 'L', 'G', 'R', 'T', 'H' ],
+  order: -1,
+  step: 'Q' }
+{ requirements: [ 'J', 'I', 'E' ],
+  requiredFor: [ 'K', 'Q', 'G', 'B' ],
+  order: -1,
+  step: 'S' }
+{ requirements: [ 'O', 'N', 'A', 'D', 'C', 'U', 'B', 'Q', 'K' ],
+  requiredFor: [ 'H', 'L', 'V', 'G' ],
+  order: -1,
+  step: 'T' }
+{ requirements: [ 'J', 'Z', 'M' ],
+  requiredFor: [ 'L', 'R', 'Q', 'T', 'K', 'B' ],
+  order: -1,
+  step: 'U' }
+{ requirements: [],
+  requiredFor: [ 'N', 'T', 'X', 'J' ],
+  order: 0,
+  step: 'A' }
+{ requirements: [ 'J', 'S', 'K', 'U' ],
+  requiredFor: [ 'R', 'T', 'Y' ],
+  order: 0,
+  step: 'B' }
+{ requirements: [ 'Z' ],
+  requiredFor: [ 'Y', 'T', 'G', 'L' ],
+  order: 0,
+  step: 'D' }
+{ requirements: [ 'T', 'C', 'N', 'F', 'K', 'E', 'Q' ],
+  requiredFor: [ 'G', 'R', 'Y' ],
+  order: 0,
+  step: 'H' }
+{ requirements: [ 'N', 'E', 'W' ],
+  requiredFor: [ 'X', 'C', 'K', 'Q', 'V', 'S', 'Y' ],
+  order: 0,
+  step: 'I' }
+{ requirements: [],
+  requiredFor: [ 'X', 'G', 'U' ],
+  order: 0,
+  step: 'M' }
+{ requirements: [],
+  requiredFor: [ 'R', 'Y', 'O' ],
+  order: 0,
+  step: 'P' }
+{ requirements: [ 'J', 'O' ],
+  requiredFor: [ 'G', 'Z', 'Q', 'K', 'V', 'I' ],
+  order: 0,
+  step: 'W' }
+{ requirements: [ 'M', 'E', 'I', 'F', 'A' ],
+  requiredFor: [ 'Y', 'V', 'Q' ],
+  order: 0,
+  step: 'X' }
+{ requirements: [ 'W', 'C', 'H', 'V', 'Q', 'M', 'T', 'D', 'S', 'L', 'F' ],
+  requiredFor: [ 'Y', 'R' ],
+  order: 1,
+  step: 'G' }
+{ requirements: [ 'P' ],
+  requiredFor: [ 'T', 'L', 'W', 'J' ],
+  order: 1,
+  step: 'O' }
+{ requirements: [ 'P', 'B', 'L', 'G', 'U', 'V', 'H', 'Q' ],
+  requiredFor: [ 'Y' ],
+  order: 1,
+  step: 'R' }
+{ requirements: [ 'K', 'X', 'T', 'F', 'I', 'W' ],
+  requiredFor: [ 'L', 'Y', 'G', 'R' ],
+  order: 1,
+  step: 'V' }
+{ requirements: [ 'X', 'D', 'G', 'R', 'V', 'J', 'H', 'B', 'K', 'P', 'I' ],
+  requiredFor: [],
+  order: 1,
+  step: 'Y' }
+{ requirements: [ 'U', 'Q', 'V', 'O', 'T', 'D' ],
+  requiredFor: [ 'R', 'G' ],
+  order: 2,
+  step: 'L' }

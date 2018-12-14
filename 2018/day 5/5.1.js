@@ -28,10 +28,14 @@ var fs = require('fs');
 const trimPolymer = (chain) => {
     //loop through string
     for (var i = 0; i < chain.length; i++) {
+        //console.log(i);
         //if not end of string and letter pair is reactive
         if (chain[i + 1] && chain[i] != chain[i + 1] && chain[i].toLowerCase() == chain[i + 1].toLowerCase()) {
             chain = chain.slice(0, i) + chain.slice(i + 2); //remove letters
-            i = -1; //reset loop
+            if(i!=0)
+                i -= 2; //reset loop
+            else
+                i = -1
         }
     }
     return chain;

@@ -23,7 +23,10 @@ const trimPolymer = (chain) => {
         //if not end of string and letter pair is reactive
         if (chain[i + 1] && chain[i] != chain[i + 1] && chain[i].toLowerCase() == chain[i + 1].toLowerCase()) {
             chain = chain.slice(0, i) + chain.slice(i + 2); //remove letters
-            i = -1; //reset loop
+            if (i != 0)
+                i -= 2; //reset loop
+            else
+                i = -1
         }
     }
     return chain;
@@ -41,15 +44,15 @@ const trimPolymer = (chain) => {
     let polymer = file;
     //make element, reaction map
     let unitTypeMap = {}
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach((letter)=>{
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach((letter) => {
         //remove the unit type        
-        var re = new RegExp(letter,"gi"); 
-        tempChain = polymer.replace(re,'');        
+        var re = new RegExp(letter, "gi");
+        tempChain = polymer.replace(re, '');
         //get chain length without this unit
-        unitTypeMap[letter+letter.toLowerCase()] = trimPolymer(tempChain).length;
+        unitTypeMap[letter + letter.toLowerCase()] = trimPolymer(tempChain).length;
     });
     //loop through string
-    
+
     // polymer = trimPolymer(polymer)
     console.log(unitTypeMap);
 })();
